@@ -1,0 +1,84 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="/ressources/index.css"
+        media="all">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+        shrink-to-fit=no"><meta charset="UTF-8">
+    <!-- Icon -->
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="ressources/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="ressources/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="ressources/images/favicon-16x16.png">
+    <link rel="manifest" href="ressources/images/site.webmanifest">
+    <!-- Primary Meta Tags -->
+    <title>Eugénie Zuccarelli</title>
+    <meta name="keywords" content="">
+    <meta name="author" content="Eugénie Zuccarelli">
+    <meta name="title" content="Eugénie Zuccarelli">
+    <meta name="description" content="A remplir">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://eugeniezuccarelli.com/">
+    <meta property="og:title" content="Eugénie Zuccarelli">
+    <meta property="og:description" content="A remplir">
+    <meta property="og:image"
+        content="https://eugeniezuccarelli.com/ressources/front_page.jpg">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Eugénie Zuccarelli">
+    <meta property="twitter:description" content="A remplir">
+    <meta property="twitter:image"
+        content="https://eugeniezuccarelli.com/ressources/front_page.jpg">
+</head>
+<body>
+    <div>
+        <div class="line top_name">
+            <div class="bloc B1 M1 S1">
+                <h5><a href="/bio.html">Eugénie Zuccarelli</a></h5>
+            </div>
+        </div>
+        <div class="line ">
+            <div class="bloc B2 M2 S3">
+                <h5><a href="/project_1.html">this is the link 1</a><br></h5>
+                <h5><a href="/">this is the link 2</a><br></h5>
+                <h5><a href="/">this is the link 3</a><br></h5>
+            </div>
+            <div class="bloc B6 M6 S7" style="margin: 0px -10px 0px -10px;
+                position: relative;">
+                <div id="x"></div>
+                <img src="#" class="cover_img" hidden="hidden" id="template" />
+
+                <script>
+                    ;(function(window,document,undefined){
+    "use strict";
+        var init = function(){    
+            var canvas = document.querySelector('#x');
+            var icon_template = document.querySelector('#template');
+           
+            var the_images = [
+                'ressources/images/decor_scan_v2.jpg',
+                'ressources/images/decor_scan.jpg',
+                'ressources/images/decor_scan07.jpg'
+            ];
+            var pickRandomImage = function(){
+                var i = Math.floor( Math.random() * the_images.length );
+                return the_images[i];
+            };
+           
+                var node = icon_template.cloneNode(true);
+                node.removeAttribute('id');
+                node.removeAttribute('hidden');
+                node.setAttribute('src',pickRandomImage());
+                canvas.appendChild(node);
+            
+        };
+       window.addEventListener('load',init);
+})(window,document);
+                </script>
+            </div>
+        </div>
+    </div>
+</body>
