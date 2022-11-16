@@ -289,6 +289,9 @@ p{
             margin-right: -10vw;
         text-align:left;
     }
+    .top_name.line {
+        margin-top: 2vh !important;
+    }
 
     
 }
