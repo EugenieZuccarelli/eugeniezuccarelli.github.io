@@ -284,7 +284,10 @@ p{
     a:hover {
     font-style: normal !important;
     font-weight: normal !important;
-}
+    }
+    .menu{
+        margin-right: -20px;
+    }
     
 }
 
