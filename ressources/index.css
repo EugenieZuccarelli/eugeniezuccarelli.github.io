@@ -12,6 +12,7 @@ body{
     height: 100%;
     margin:0 auto;
     overflow: hidden;
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 }
 
 html{
@@ -92,6 +93,11 @@ html{
 }
 ::-webkit-scrollbar-thumb {
     background: grey;
+}
+
+::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 25px;
 }
 
 .img_normal {
