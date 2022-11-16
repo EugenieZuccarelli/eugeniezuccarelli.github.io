@@ -306,12 +306,14 @@ a {
     text-decoration: none;
     color: black;
 }
+
+@media (hover: hover){
 a:active,
 a:hover {
     font-style: italic;
     font-weight: 600;
 }
-
+}
 
 
 /*TYPOGRAPHY*/
