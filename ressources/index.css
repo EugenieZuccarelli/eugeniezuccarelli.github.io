@@ -285,9 +285,11 @@ p{
     font-style: normal !important;
     font-weight: normal !important;
     }
-    .menu{
-        margin-right: -20px;
+    .z_name{
+            margin-right: -10vw;
+        text-align:left;
     }
+
     
 }
 
