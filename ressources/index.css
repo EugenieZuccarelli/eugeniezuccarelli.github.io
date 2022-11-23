@@ -52,7 +52,7 @@ html{
 
 .scrollzone {
     height: 72vh ;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .mobile_div{
